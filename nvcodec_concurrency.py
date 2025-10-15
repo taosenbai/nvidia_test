@@ -55,18 +55,19 @@ def build_encode_argv(codec: str, frames: int, width: int, height: int,
             "identity", f"eos-after={frames}", "!"
         ]
         if use_nv12:
-            pre += ["videoconvert", "!", "video/x-raw,format=NV12"]
+            pre += ["videoconvert", "!",
+                    f"video/x-raw,format=NV12,width={width},height={height},framerate={framerate}"]
         else:
-            pre += ["video/x-raw,format=I420"]
+            pre += [f"video/x-raw,format=I420,width={width},height={height},framerate={framerate}"]
     else:
+        # 合成源：先转换再一次性给出完整 caps（注意 caps 必须是一个带逗号的参数）
         pre = [
             "videotestsrc", f"num-buffers={frames}", "is-live=false", "pattern=smpte", "!",
-            "video/x-raw", f"width={width}", f"height={height}", f"framerate={framerate}"
+            "videoconvert", "!",
+            (f"video/x-raw,format=NV12,width={width},height={height},framerate={framerate}"
+             if use_nv12 else
+             f"video/x-raw,format=I420,width={width},height={height},framerate={framerate}")
         ]
-        if use_nv12:
-            pre += ["!", "videoconvert", "!", "video/x-raw,format=NV12"]
-        else:
-            pre += ["!", "video/x-raw,format=I420"]
 
     if codec == "nvh264enc":
         enc = ["nvh264enc", f"bitrate={bitrate_kbps}", "preset=hq"]
