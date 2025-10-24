@@ -1,0 +1,49 @@
+3840x2160
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222831203188736_backup/5222831203188736_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760735029%3B1776287029&q-key-time=1760735029%3B1776287029&q-header-list=host&q-url-param-list=&q-signature=facb0c2f70ff47157376c02907dcfd04816837f2" -t 00:00:30 -c copy 3840x2160_5222831203188736.mp4
+
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222093014007808_backup/5222093014007808_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760554258%3B1776106258&q-key-time=1760554258%3B1776106258&q-header-list=host&q-url-param-list=&q-signature=fb7a5dd631006bae5ff3419c9fc0726cb843a153" -t 00:00:30 -c copy 3840x2160_5222093014007808.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5223583199985664_backup/5223583199985664_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760906351%3B1776458351&q-key-time=1760906351%3B1776458351&q-header-list=host&q-url-param-list=&q-signature=d35e0fe1f839046bd1db6dbc7f85a60bfe976661" -t 00:00:30 -c copy 3840x2160_5223583199985664.mp4
+
+
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222869157445632_backup/5222869157445632_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760736291%3B1776288291&q-key-time=1760736291%3B1776288291&q-header-list=host&q-url-param-list=&q-signature=1e51baef1fef2abc184d3bd62098e44b139c4bed" -t 00:00:30 -c copy 3840x2160_5222869157445632.mp4
+
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5223985018437635_backup/5223985018437635_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760991439%3B1776543439&q-key-time=1760991439%3B1776543439&q-header-list=host&q-url-param-list=&q-signature=13666763aa7d3abb63643068f7b0a369684ae3c8" -t 00:00:30 -c copy 3840x2160_5223985018437635.mp4
+
+
+2160x3840
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222373797494784_backup/5222373797494784_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760616012%3B1776168012&q-key-time=1760616012%3B1776168012&q-header-list=host&q-url-param-list=&q-signature=615f05686bd54792bee3dc5b42026a2672e9e4bd" -t 00:00:30 -c copy 2160x3840_5222373797494784.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5223935542362112_backup/5223935542362112_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760982909%3B1776534909&q-key-time=1760982909%3B1776534909&q-header-list=host&q-url-param-list=&q-signature=75897eb7fd1996314354a0ae352a533061ee5a8c" -t 00:00:30 -c copy 2160x3840_5223935542362112.mp4
+
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222734520156160_backup/5222734520156160_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760702928%3B1776254928&q-key-time=1760702928%3B1776254928&q-header-list=host&q-url-param-list=&q-signature=c1b8792a80f36b3871855b457c6dc60b38191c01" -t 00:00:30 -c copy 2160x3840_5222734520156160.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5224179193643008_backup/5224179193643008_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1761053755%3B1776605755&q-key-time=1761053755%3B1776605755&q-header-list=host&q-url-param-list=&q-signature=7c64cbedab2408fd6e0dc5baaeab72f1edf54781" -t 00:00:30 -c copy 2160x3840_5224179193643008.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5221294770847744_backup/5221294770847744_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760346801%3B1775898801&q-key-time=1760346801%3B1775898801&q-header-list=host&q-url-param-list=&q-signature=1fdf81b5e300620be10b5541340070979d4a054d" -t 00:00:30 -c copy 2160x3840_5221294770847744.mp4
+
+1920x1080
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5221545690955776_backup/5221545690955776_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760397907%3B1775949907&q-key-time=1760397907%3B1775949907&q-header-list=host&q-url-param-list=&q-signature=37dbbeda3623cfffa8ced1839ad24b1ba393258e" -t 00:00:30 -c copy 1920x1080_5221545690955776.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222360115773440_backup/5222360115773440_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760607309%3B1776159309&q-key-time=1760607309%3B1776159309&q-header-list=host&q-url-param-list=&q-signature=7f51b618231c3373cc8fd9384dbb41c3b8ba3226" -t 00:00:30 -c copy 1920x1080_5222360115773440.mp4
+
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222145077903360_backup/5222145077903360_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760640963%3B1776192963&q-key-time=1760640963%3B1776192963&q-header-list=host&q-url-param-list=&q-signature=6ff92235ae4e5e6e06f17066b8cffff4ce45e2ef" -t 00:00:30 -c copy 1920x1080_5222145077903360.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222575551840256_backup/5222575551840256_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760888921%3B1776440921&q-key-time=1760888921%3B1776440921&q-header-list=host&q-url-param-list=&q-signature=1c4414bf729f663d7ca0f0bc51139b2551ea1df1" -t 00:00:30 -c copy 1920x1080_5222575551840256.mp4
+
+1080x1920
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5223621028249600_backup/5223621028249600_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760911817%3B1776463817&q-key-time=1760911817%3B1776463817&q-header-list=host&q-url-param-list=&q-signature=4f5ea0514a1c8370e70198f2533a592bcb171890" -t 00:00:30 -c copy 1920x1080_5223621028249600.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222190112145408_backup/5222190112145408_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760569879%3B1776121879&q-key-time=1760569879%3B1776121879&q-header-list=host&q-url-param-list=&q-signature=d218f93244214b462f805270164f887da276c779" -t 00:00:30 -c copy 1920x1080_5222190112145408.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5222885733335040_backup/5222885733335040_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760735464%3B1776287464&q-key-time=1760735464%3B1776287464&q-header-list=host&q-url-param-list=&q-signature=92d68695a80dbec3fd9fe3d6e75038359a1c0fc7" -t 00:00:30 -c copy 1920x1080_5222885733335040.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5221951078694912_backup/5221951078694912_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760495153%3B1776047153&q-key-time=1760495153%3B1776047153&q-header-list=host&q-url-param-list=&q-signature=a1e2f7936f0c3c3b75dd37904404c6e6661750bf" -t 00:00:30 -c copy 1920x1080_5221951078694912.mp4
+
+ffmpeg -i "https://live-shift-1322473441.cos.ap-singapore.myqcloud.com/audit/5221375750176768_backup/5221375750176768_backup.m3u8?q-sign-algorithm=sha1&q-ak=IKIDeD8qMgmeIk27zgPxIPLo6A0e5IH3d092&q-sign-time=1760381811%3B1775933811&q-key-time=1760381811%3B1775933811&q-header-list=host&q-url-param-list=&q-signature=39649cfd0e19e043dbe665955dd2921b86a5f297" -t 00:00:30 -c copy 1920x1080_5221375750176768.mp4
